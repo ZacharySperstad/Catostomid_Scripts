@@ -1,0 +1,1 @@
+java -jar target/phyparts-0.0.1-SNAPSHOT-jar-with-dependencies.jar -a 1 -v -d test/testd -m test/RAxML_Catostomidae.tre -o out
