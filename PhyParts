@@ -1,4 +1,10 @@
+### To generate the information used to make the pie charts. ###
+
 java -jar target/phyparts-0.0.1-SNAPSHOT-jar-with-dependencies.jar -a 1 -v -d test/folder_name_with_trees -m 
 test/species_tree_to_be_used.tre -s [support threshold given as a decimal (e.g. 80% = 0.8)] -o out
 
 # I had to press return to see the whole thing. Delete space between "-m" and "test" when running.
+
+### To generate the pie charts. ###
+
+python phypartspiecharts.py RAxML_Catostomidae.tre out 170
