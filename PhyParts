@@ -11,4 +11,8 @@ python phypartspiecharts.py RAxML_Catostomidae.tre out 170
 
 ### Making a Reticulating Tree in PhyloNet ###
 
-java -jar PhyloNet_3.6.8.jar fill_with_trees_to_use_and_commands.nex
+# Concatenating .tre files
+type *.tre > 5_Small_Trees.tre 
+
+# Make sure to check that the commands are correct for the desired analysis (Bayesian, Parsimony, etc.)!
+java -jar PhyloNet_3.6.8.jar fill_with_trees_to_use_and_commands.nex 
